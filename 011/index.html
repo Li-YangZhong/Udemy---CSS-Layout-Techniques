@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Position Elements</title>
+    <style>
+       .box {
+           width: 150px;
+           height: 150px;
+           position: absolute;
+       }
+
+       #parent {
+           width: 600px;
+           height: 600px;
+           border: 1px solid black;
+           margin: 0 auto;
+           position: relative;
+       }
+       #box1 {
+           background: pink;
+           top: 0;
+           left: 0;
+       }
+
+       #box2 {
+           background: cyan;
+           top: 0;
+           right: 0;
+       }
+
+       #box3 {
+           background: gray;
+            bottom: 0;
+            left: 0;
+       }
+
+       #box4 {
+           background: red;
+        bottom: 0;
+        right: 0;
+
+       }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+    </div>
+
+</body>
+</html>

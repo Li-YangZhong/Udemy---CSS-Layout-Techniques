@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Position Elements</title>
+    <style>
+        #parent {
+            border: 5px solid black;
+            height: 500px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .child {
+            text-align: center;
+        }
+
+        #child1 {
+            width: 150px;
+            height: 150px;
+            background: pink;
+        }
+
+        #child2 {
+            width: 200px;
+            height: 300px;
+            background: cyan;
+        }
+
+        #child3 {
+            width: 200px;
+            height: 100px;
+            background: gray;
+        }
+
+        #child4 {
+            width: 300px;
+            height: 100px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="child1" class="child">FIRST</div>
+        <div id="child2" class="child">SECOND</div>
+        <div id="child3" class="child">THIRD</div>
+        <div id="child4" class="child">FOURTH</div>
+    </div>
+
+</body>
+</html>

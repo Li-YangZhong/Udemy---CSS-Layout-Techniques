@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2-Column Layout</title>
+    <style>
+        #main {
+            width: 500px;
+            height: 400px;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        #background {
+            position: absolute;
+            width: 500px;
+            height: 300px;
+        }
+
+        #quote {
+            position: absolute;
+            font-size: 30px;
+            color: white;
+            left: 10px;
+            top: 250px;
+            text-align: justify;
+            padding: 10px;
+            width: 460px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <h2>Quote of the Day</h2>
+        <img src="background.jpg" alt="" id="background">
+        <div id="quote">What hurts you today makes you stronger tomorrow.</div>
+    </div>
+</body>
+
+</html>

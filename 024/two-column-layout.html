@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2-Column Layout</title>
+    <style>
+        #parent {
+            background: #CCFFFF;
+        }
+
+        #header {
+            background: #00e6e6;
+        }
+
+        h2, h3 {
+            text-align: center;
+        }
+
+        p {
+            padding: 5px;
+            text-align: justify;
+            font-size: 20px;
+        }
+        #left-section {
+            background: #99ffff;
+            float: left;
+            width: 150px;
+            height: 200px;
+        }
+
+        #right-section {
+            background: #00b3b3;
+            margin-left: 180px;
+            height: 200px;
+            overflow: auto;
+        }
+
+        #footer {
+            background: #00cccc;
+            clear:both;
+        }
+
+        a {
+            display: block;
+            padding: 10px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div id="parent">
+    <div id="header">
+        <h2>Welcome to ABC.com</h2>
+    </div>
+    <div id="left-section">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About Us</a>
+        <a href="#">Career</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div id="right-section">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident veritatis quia fugit illo non ipsum hic blanditiis perspiciatis optio tenetur.</p>
+        <p>Placeat blanditiis minima dolores delectus necessitatibus perferendis inventore perspiciatis dicta, fuga culpa rem soluta non possimus eaque, laborum natus obcaecati?</p>
+        <p>Tenetur quibusdam totam quo, facere labore quisquam. Doloremque numquam autem vel incidunt iure nihil repellendus quas aut accusantium optio! Placeat!</p>
+    </div>
+
+    <div id="footer">
+        <h3>&copy; 2010-2018 ABC.com</h3>
+    </div>
+</div>
+</body>
+</html>

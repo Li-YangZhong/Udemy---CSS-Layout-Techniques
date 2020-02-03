@@ -12,6 +12,9 @@
             height: 500px;
             width: 400px;
             display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content:space-around;
 
 
         }
@@ -24,43 +27,36 @@
 
         #child1 {
             background: pink;
-            order: 7;
 
         }
 
         #child2 {
 
             background: cyan;
-            order: 5;
         }
 
         #child3 {
  
             background: gray;
-            order: 1;
 
         }
 
         #child4 {
 
             background: red;
-            order: -1;
 
         }
 
         #child5{
             background: purple;
-            order: 0;
         }
 
         #child6{
             background: maroon;
-            order: -1;
         }
         
         #child7{
             background: green;
-            order: 0;
         }
 
 
@@ -71,10 +67,7 @@
         <div id="child1" class="child">ONE</div>
         <div id="child2" class="child">TWO</div>
         <div id="child3" class="child">THREE</div>
-        <div id="child4" class="child">FOUR</div>
-        <div id="child5" class="child">FIVE</div>
-        <div id="child6" class="child">SIX</div>
-        <div id="child7" class="child">SEVEN</div>
+
     </div>
 
 </body>
